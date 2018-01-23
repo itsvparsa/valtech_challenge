@@ -12,8 +12,5 @@ Scenario: navigating to different pages on valtech website
   And I verify the work is displaying
   And I go to services page
   And I verify the services is displaying
-  Then I go to contact page and verify the list of countries
-
-
-
-
+  When I go to contact page
+  Then I verify the list of countries
